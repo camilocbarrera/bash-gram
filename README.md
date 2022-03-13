@@ -1,7 +1,5 @@
 # Bashgram Bot
 
-
-
 # Bashgram Bot
 
 Bashgram es un bot en Telegram que permite la ejecución de comandos shell en una terminal de Linux. La implementación de esta funcionalidad permite al usuario consultar los archivos almacenados en dicha terminal (simulando un explorador de archivos) y también le brinda la posibilidad de ejecutar algunos comandos que presentan información referente al ordenador.
@@ -28,9 +26,9 @@ Si ya tienes un bot, omite el primer párrafo y echa un vistazo a la siguiente s
 
 **Paso 2.** Ingresa @Botfather en la pestaña de búsqueda y elige el siguiente bot:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abcb1851-8757-4136-9245-a67b007d453f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abcb1851-8757-4136-9245-a67b007d453f/Untitled.png)
+![Bashgram%20B%20a255a/Untitled.png](Bashgram%20B%20a255a/Untitled.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77217bf8-6e7c-41f3-ae93-186c56955a4c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77217bf8-6e7c-41f3-ae93-186c56955a4c/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%201.png](Bashgram%20B%20a255a/Untitled%201.png)
 
 Ten en cuenta que los bots oficiales de Telegram tienen una marca de verificación azul junto a su nombre.
 
@@ -38,17 +36,17 @@ Ten en cuenta que los bots oficiales de Telegram tienen una marca de verificaci�
 
 Nos aparece la siguiente imagen:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ece25c3-01e9-4772-a07b-1cf320e87f46/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ece25c3-01e9-4772-a07b-1cf320e87f46/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%202.png](Bashgram%20B%20a255a/Untitled%202.png)
 
 **Paso 4.** Ahora usamos el comando `/newbot`  para crear un nuevo bot:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b78acb9-028a-4df0-8ad8-3c105950a868/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b78acb9-028a-4df0-8ad8-3c105950a868/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%203.png](Bashgram%20B%20a255a/Untitled%203.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b189104d-5768-441a-836c-7ae4be037f11/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b189104d-5768-441a-836c-7ae4be037f11/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%204.png](Bashgram%20B%20a255a/Untitled%204.png)
 
 **Paso 5.** Ahora asignamos un nombre para el bot:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b64a9583-b1da-4aab-a664-17a84327d314/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b64a9583-b1da-4aab-a664-17a84327d314/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%205.png](Bashgram%20B%20a255a/Untitled%205.png)
 
 Si el nombre se encuentra disponible, se creará el bot y obtendrás el token mediante el cual podrás hacer uso de la API de Telegram.
 
@@ -66,7 +64,7 @@ En la derecha comprobamos su funcionamiento.
 
 El parámetro `-n` Nos permite cancelar la escucha después de que finalice el operador EOF que permite identificar cuando termina. La idea de este es generar pequeñas interrupciones en un ciclo que permita escuchar el web host con persistencia. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d45ff85-a2f4-4a28-b02f-cf95a13e8918/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d45ff85-a2f4-4a28-b02f-cf95a13e8918/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%206.png](Bashgram%20B%20a255a/Untitled%206.png)
 
 Ahora debemos construir una respuesta para el host web
 
@@ -92,11 +90,11 @@ Ahora comprobamos, guardamos nuestro archivo como ejecutable con el comando `chm
 
 Comprobamos en nuestro navegador  [`http://localhost:5000/`](http://localhost:5000/)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2521d921-a224-4ce2-b2dc-2ae4d09936bc/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2521d921-a224-4ce2-b2dc-2ae4d09936bc/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%207.png](Bashgram%20B%20a255a/Untitled%207.png)
 
 En la consola como estamos guardando la respuesta de la configuración del web host podemos visualizar cada vez que se haga un request GET o POST
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/209ad693-01cc-413a-b83f-a9250dc434c9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/209ad693-01cc-413a-b83f-a9250dc434c9/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%208.png](Bashgram%20B%20a255a/Untitled%208.png)
 
 # Configuración Publica para el servidor
 
@@ -106,9 +104,9 @@ Ejecutamos el comando `./ngrok http 5000`
 
 Listo, ahora tenemos el túnel con https:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db4090ad-2b1b-4bd1-818e-0a7f94f78b19/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db4090ad-2b1b-4bd1-818e-0a7f94f78b19/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%209.png](Bashgram%20B%20a255a/Untitled%209.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17bd9636-3cb8-4837-b251-c4413218162f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17bd9636-3cb8-4837-b251-c4413218162f/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2010.png](Bashgram%20B%20a255a/Untitled%2010.png)
 
 # Asignando Webhook a la API de Telegram
 
@@ -120,13 +118,13 @@ https://api.telegram.org/bot${TOKEN}/setWebhook?url=https://f33fc555b0f0.ngrok.i
 
 Al realizar el post del la API recibimos esta respuesta:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02fb06b3-6e9b-424e-a6ee-69e34fd72d41/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02fb06b3-6e9b-424e-a6ee-69e34fd72d41/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2011.png](Bashgram%20B%20a255a/Untitled%2011.png)
 
 Quiere decir que se configuró correctamente, ahora todo el tráfico lo recibiremos a nuestro [localhost](http://localhost).
 
 Comprobamos ahora el método POST escribiendo un mensaje en nuestro bot:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0fa76f97-bbd3-46ef-92f8-15466fa5529e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0fa76f97-bbd3-46ef-92f8-15466fa5529e/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2012.png](Bashgram%20B%20a255a/Untitled%2012.png)
 
 # Manejo de mensajes
 
@@ -142,7 +140,7 @@ message=$(echo "$RESP"  | tail -2   | jq -r  '.message')
 
 El resultado es el siguiente:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9d0cad1-e453-4b28-b8c3-7b12cfbd4d2d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9d0cad1-e453-4b28-b8c3-7b12cfbd4d2d/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2013.png](Bashgram%20B%20a255a/Untitled%2013.png)
 
 De esta forma ya podemos capturar cualquier clave o valor 
 
@@ -176,7 +174,7 @@ eval $text
 
 Este es el resultado:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec4c3fe5-3f35-45f0-9cf9-9e863789522d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec4c3fe5-3f35-45f0-9cf9-9e863789522d/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2014.png](Bashgram%20B%20a255a/Untitled%2014.png)
 
 Ahora se debe capturar el ouput de la consola y guardarlo en una variable para responder el mensaje con nuestra función `enviaMensaje()`.
 
@@ -221,7 +219,7 @@ done
 
 Comprobamos la respuesta con el comando `pwd`:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/259edb04-766e-4dc9-bb3f-c4223bbabb96/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/259edb04-766e-4dc9-bb3f-c4223bbabb96/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2015.png](Bashgram%20B%20a255a/Untitled%2015.png)
 
 Listo, el bot se encuentra funcionando correctamente, ahora agregaremos validaciones para mejorar su funcionamiento.
 
@@ -346,11 +344,11 @@ done
 
 Iniciamos nuestro script:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84f20d61-8835-401b-8e24-69e2afde5452/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84f20d61-8835-401b-8e24-69e2afde5452/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2016.png](Bashgram%20B%20a255a/Untitled%2016.png)
 
 Ingresamos nuestro user ID y aquí se inicia la aplicación:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93eb0fc1-c6bc-4906-8ea3-a4518709287d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93eb0fc1-c6bc-4906-8ea3-a4518709287d/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2017.png](Bashgram%20B%20a255a/Untitled%2017.png)
 
 Comprobemos su funcionamiento
 
@@ -358,13 +356,13 @@ A la derecha el texto sin formato tenemos mi usuario de Telegram, realizando el 
 
 En la parte izquierda un echo para comprobar que se está ejecutando.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ad04759-6a54-439f-b6aa-69091ee2e8f6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ad04759-6a54-439f-b6aa-69091ee2e8f6/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2018.png](Bashgram%20B%20a255a/Untitled%2018.png)
 
 Probemos algunos comandos
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0ae9102c-c3d2-4a75-ad9f-3cea1a81d454/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0ae9102c-c3d2-4a75-ad9f-3cea1a81d454/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2019.png](Bashgram%20B%20a255a/Untitled%2019.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6d6ea37-6a3d-4cdd-b8aa-b904bba3848f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6d6ea37-6a3d-4cdd-b8aa-b904bba3848f/Untitled.png)
+![Bashgram%20B%20a255a/Untitled%2020.png](Bashgram%20B%20a255a/Untitled%2020.png)
 
 # Listado de Comandos
 
