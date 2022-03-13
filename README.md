@@ -1,5 +1,8 @@
 # Bashgram Bot
 
+
+# Bashgram Bot
+
 Bashgram es un bot en Telegram que permite la ejecución de comandos shell en una terminal de Linux. La implementación de esta funcionalidad permite al usuario consultar los archivos almacenados en dicha terminal (simulando un explorador de archivos) y también le brinda la posibilidad de ejecutar algunos comandos que presentan información referente al ordenador.
 
 La interacción con el bot es posible desde los diferentes medios de conexión que ofrece la aplicación Telegram, dentro de los cuales se encuentran dispositivos smartphone, aplicación de escritorio y conexión mediante Telegram web desde su página principal.
@@ -26,7 +29,7 @@ Si ya tienes un bot, omite el primer párrafo y echa un vistazo a la siguiente s
 
 ![Bashgram%20B%20a255a/Untitled.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled.png)
 
-![Bashgram%20B%20a255a/Untitled%201.png](Bashgram%20B%20a255a/Untitled%201.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%201.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%201.png)
 
 Ten en cuenta que los bots oficiales de Telegram tienen una marca de verificación azul junto a su nombre.
 
@@ -34,17 +37,17 @@ Ten en cuenta que los bots oficiales de Telegram tienen una marca de verificaci�
 
 Nos aparece la siguiente imagen:
 
-![Bashgram%20B%20a255a/Untitled%202.png](Bashgram%20B%20a255a/Untitled%202.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%202.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%202.png)
 
 **Paso 4.** Ahora usamos el comando `/newbot`  para crear un nuevo bot:
 
-![Bashgram%20B%20a255a/Untitled%203.png](Bashgram%20B%20a255a/Untitled%203.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%203.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%203.png)
 
-![Bashgram%20B%20a255a/Untitled%204.png](Bashgram%20B%20a255a/Untitled%204.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%204.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%204.png)
 
 **Paso 5.** Ahora asignamos un nombre para el bot:
 
-![Bashgram%20B%20a255a/Untitled%205.png](Bashgram%20B%20a255a/Untitled%205.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%205.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%205.png)
 
 Si el nombre se encuentra disponible, se creará el bot y obtendrás el token mediante el cual podrás hacer uso de la API de Telegram.
 
@@ -62,7 +65,7 @@ En la derecha comprobamos su funcionamiento.
 
 El parámetro `-n` Nos permite cancelar la escucha después de que finalice el operador EOF que permite identificar cuando termina. La idea de este es generar pequeñas interrupciones en un ciclo que permita escuchar el web host con persistencia. 
 
-![Bashgram%20B%20a255a/Untitled%206.png](Bashgram%20B%20a255a/Untitled%206.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%206.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%206.png)
 
 Ahora debemos construir una respuesta para el host web
 
@@ -88,11 +91,11 @@ Ahora comprobamos, guardamos nuestro archivo como ejecutable con el comando `chm
 
 Comprobamos en nuestro navegador  [`http://localhost:5000/`](http://localhost:5000/)
 
-![Bashgram%20B%20a255a/Untitled%207.png](Bashgram%20B%20a255a/Untitled%207.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%207.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%207.png)
 
 En la consola como estamos guardando la respuesta de la configuración del web host podemos visualizar cada vez que se haga un request GET o POST
 
-![Bashgram%20B%20a255a/Untitled%208.png](Bashgram%20B%20a255a/Untitled%208.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%208.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%208.png)
 
 # Configuración Publica para el servidor
 
@@ -102,9 +105,9 @@ Ejecutamos el comando `./ngrok http 5000`
 
 Listo, ahora tenemos el túnel con https:
 
-![Bashgram%20B%20a255a/Untitled%209.png](Bashgram%20B%20a255a/Untitled%209.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%209.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%209.png)
 
-![Bashgram%20B%20a255a/Untitled%2010.png](Bashgram%20B%20a255a/Untitled%2010.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2010.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2010.png)
 
 # Asignando Webhook a la API de Telegram
 
@@ -116,13 +119,13 @@ https://api.telegram.org/bot${TOKEN}/setWebhook?url=https://f33fc555b0f0.ngrok.i
 
 Al realizar el post del la API recibimos esta respuesta:
 
-![Bashgram%20B%20a255a/Untitled%2011.png](Bashgram%20B%20a255a/Untitled%2011.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2011.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2011.png)
 
 Quiere decir que se configuró correctamente, ahora todo el tráfico lo recibiremos a nuestro [localhost](http://localhost).
 
 Comprobamos ahora el método POST escribiendo un mensaje en nuestro bot:
 
-![Bashgram%20B%20a255a/Untitled%2012.png](Bashgram%20B%20a255a/Untitled%2012.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2012.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2012.png)
 
 # Manejo de mensajes
 
@@ -138,7 +141,7 @@ message=$(echo "$RESP"  | tail -2   | jq -r  '.message')
 
 El resultado es el siguiente:
 
-![Bashgram%20B%20a255a/Untitled%2013.png](Bashgram%20B%20a255a/Untitled%2013.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2013.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2013.png)
 
 De esta forma ya podemos capturar cualquier clave o valor 
 
@@ -172,7 +175,7 @@ eval $text
 
 Este es el resultado:
 
-![Bashgram%20B%20a255a/Untitled%2014.png](Bashgram%20B%20a255a/Untitled%2014.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2014.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2014.png)
 
 Ahora se debe capturar el ouput de la consola y guardarlo en una variable para responder el mensaje con nuestra función `enviaMensaje()`.
 
@@ -217,7 +220,7 @@ done
 
 Comprobamos la respuesta con el comando `pwd`:
 
-![Bashgram%20B%20a255a/Untitled%2015.png](Bashgram%20B%20a255a/Untitled%2015.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2015.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2015.png)
 
 Listo, el bot se encuentra funcionando correctamente, ahora agregaremos validaciones para mejorar su funcionamiento.
 
@@ -342,11 +345,11 @@ done
 
 Iniciamos nuestro script:
 
-![Bashgram%20B%20a255a/Untitled%2016.png](Bashgram%20B%20a255a/Untitled%2016.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2016.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2016.png)
 
 Ingresamos nuestro user ID y aquí se inicia la aplicación:
 
-![Bashgram%20B%20a255a/Untitled%2017.png](Bashgram%20B%20a255a/Untitled%2017.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2017.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2017.png)
 
 Comprobemos su funcionamiento
 
@@ -354,13 +357,13 @@ A la derecha el texto sin formato tenemos mi usuario de Telegram, realizando el 
 
 En la parte izquierda un echo para comprobar que se está ejecutando.
 
-![Bashgram%20B%20a255a/Untitled%2018.png](Bashgram%20B%20a255a/Untitled%2018.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2018.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2018.png)
 
 Probemos algunos comandos
 
-![Bashgram%20B%20a255a/Untitled%2019.png](Bashgram%20B%20a255a/Untitled%2019.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2019.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2019.png)
 
-![Bashgram%20B%20a255a/Untitled%2020.png](Bashgram%20B%20a255a/Untitled%2020.png)
+![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2020.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2020.png)
 
 # Listado de Comandos
 
