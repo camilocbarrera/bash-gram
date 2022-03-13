@@ -1,8 +1,6 @@
 # Bashgram Bot
 
-[Versión Online](https://www.notion.so/Bashgram-Bot-6b479484336f4a0a8635e2d6a1b53f3f)
 
-[https://www.notion.so/6b479484336f4a0a8635e2d6a1b53f3f](https://www.notion.so/Bashgram-Bot-6b479484336f4a0a8635e2d6a1b53f3f)
 
 # Bashgram Bot
 
