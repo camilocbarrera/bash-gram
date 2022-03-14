@@ -121,6 +121,7 @@ Al realizar el post del la API recibimos esta respuesta:
 Quiere decir que se configuró correctamente, ahora todo el tráfico lo recibiremos a nuestro [localhost](http://localhost).
 
 Comprobamos ahora el método POST escribiendo un mensaje en nuestro bot:
+Yei!!
 
 ![https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2012.png](https://github.com/camilocbarrera/bash-gram/blob/main/img/Untitled%2012.png)
 
