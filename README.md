@@ -48,7 +48,7 @@ Nos aparece la siguiente imagen:
 
 Si el nombre se encuentra disponible, se creará el bot y obtendrás el token mediante el cual podrás hacer uso de la API de Telegram.
 
-# Creando servidor web
+# Creando "servidor web"
 
 Desde una maquina linux vamos a ejecutar el control de envío y recepción de mensajes para interactuar con la consola.
 
