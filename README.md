@@ -1,8 +1,5 @@
 # Bashgram Bot
 
-
-# Bashgram Bot
-
 Bashgram es un bot en Telegram que permite la ejecución de comandos shell en una terminal de Linux. La implementación de esta funcionalidad permite al usuario consultar los archivos almacenados en dicha terminal (simulando un explorador de archivos) y también le brinda la posibilidad de ejecutar algunos comandos que presentan información referente al ordenador.
 
 La interacción con el bot es posible desde los diferentes medios de conexión que ofrece la aplicación Telegram, dentro de los cuales se encuentran dispositivos smartphone, aplicación de escritorio y conexión mediante Telegram web desde su página principal.
