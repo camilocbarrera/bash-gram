@@ -414,3 +414,8 @@ También puedes ejecutar los siguientes comandos, para estos, es necesario hacer
 - nmap | head: Escanea la red y muestra los puertos que se encuentran disponibles.
 - ps aux | head: Muestra la lista de procesos de la máquina
 - top | head: Muestra los procesos que se están ejecutando
+
+
+Realizado con amor 💚 por  
+-  [Jose Daniel García Davila](https://github.com/Jose082)
+-  [Cristian Camilo Correa Barrera](https://github.com/camilocbarrera)
