@@ -416,6 +416,6 @@ También puedes ejecutar los siguientes comandos, para estos, es necesario hacer
 - top | head: Muestra los procesos que se están ejecutando
 
 
-Realizado con amor 💚 por  
+Realizado con amor 💚 por: 
 -  [Jose Daniel García Davila](https://github.com/Jose082)
 -  [Cristian Camilo Correa Barrera](https://github.com/camilocbarrera)
